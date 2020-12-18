@@ -1,0 +1,611 @@
+@font-face{
+  font-family: "GT-Cinetype-Light-Trial";
+  src: url("../fonts/GT-Cinetype-Light-Trial.otf") format('opentype');
+}
+
+@font-face{
+  font-family: "GT-Cinetype-Bold-Trial";
+  src: url("../fonts/GT-Cinetype-Bold-Trial.otf") format('opentype');
+}
+
+@font-face{
+  font-family: "GT-Cinetype-Light-Italic-Trial";
+  src: url("../fonts/GT-Cinetype-Light-Italic-Trial.otf") format('opentype');
+}
+
+@font-face{
+  font-family: "NbpInformaFivethree";
+  src: url("../fonts/NbpInformaFivethree-vjVZ.ttf") format('opentype')
+}
+
+#first{
+  background: radial-gradient(circle, #171717, black);
+}
+
+#second{
+  background: radial-gradient(#171717, black);
+}
+
+#third{
+  background: radial-gradient(#160000, black);
+}
+
+#fourth{
+  background: radial-gradient(#6C0000, black);
+}
+
+#fifth{
+  background: radial-gradient(#AD0000, black);
+}
+
+#sixth{
+  background:#AD0000;
+}
+
+#seventh{
+  background: black;
+}
+
+#ipaddress{
+  background: black;
+}
+
+#mirrorbg{
+  background-color: black;
+}
+
+#the{
+  position: absolute;
+  font-size: 250%;
+  line-height: 130%;
+  margin-left: 38%;
+  margin-right: 30%;
+  margin-top: 16%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #e2e5db;
+  text-decoration: none;
+}
+
+#dark{
+  position: absolute;
+  font-size: 280%;
+  line-height: 130%;
+  margin-left: 47%;
+  margin-right: 30%;
+  margin-top: 19%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #e2e5db;
+  text-decoration: none;
+}
+
+#one{
+  position: absolute;
+  font-size: 280%;
+  line-height: 130%;
+  margin-left: 39%;
+  margin-right: 30%;
+  margin-top: 19%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #e2e5db;
+  text-decoration: none;
+}
+
+#two{
+  position: absolute;
+  font-size: 280%;
+  line-height: 130%;
+  margin-left: 44%;
+  margin-right: 30%;
+  margin-top: 19%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #e2e5db;
+  text-decoration: none;
+}
+
+#three{
+  position: absolute;
+  font-size: 280%;
+  line-height: 130%;
+  margin-left: 47%;
+  margin-right: 30%;
+  margin-top: 19%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #e2e5db;
+  text-decoration: none;
+}
+
+#four{
+  position: absolute;
+  font-size: 280%;
+  line-height: 130%;
+  margin-left: 46%;
+  margin-right: 30%;
+  margin-top: 13%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #e2e5db;
+  text-decoration: none;
+}
+
+#undo{
+  position: absolute;
+  font-size: 150%;
+  line-height: 130%;
+  margin-left: 46%;
+  margin-right: 30%;
+  margin-top: 24%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #e2e5db;
+  text-decoration: none;
+  opacity: 43%;
+}
+
+#safespace{
+  position: absolute;
+  font-size: 280%;
+  line-height: 130%;
+  margin-left: 38%;
+  margin-right: 30%;
+  margin-top: 19%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #e2e5db;
+  text-decoration: none;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 1000%;
+  background-color: white;
+  color: red;
+  font-size: 320%;
+  text-align: center;
+  border-color: black;
+  position: absolute;
+  text-decoration: none;
+  border-style: groove;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 30%;
+  font-size: 150%;
+  font-family: "GT-Cinetype-Bold-Trial";
+}
+
+#popupextra {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 50%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: blue;
+}
+
+
+.popup .show {
+  visibility: visible;
+}
+
+
+#typewriter{
+  color: white;
+}
+
+/* Malware */
+
+#error{
+  background: #AD0000;
+}
+
+#blank{
+  background-color: white;
+  width: 76%;
+  padding: 3%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+#face{
+  width: 10%;
+  position: absolute;
+}
+#warning{
+  margin-left: 17%;
+  font-size: 250%;
+  font-family: helvetica;
+  font-weight: bold;
+  color: #AD0000;
+}
+
+.protect{
+  margin-left: 17%;
+  font-size: 130%;
+  font-family: helvetica;
+  color: black;
+  margin-top: .8%;
+  line-height: 152%;
+}
+
+#protectb{
+  font-weight: bold;
+}
+
+#takemeback{
+  font-size: 100%;
+  font-family: helvetica;
+  color: black;
+  margin-top: .8%;
+  line-height: 152%;
+}
+
+/* THIRD */
+
+.beachday{
+  background-image: url("../images/beach.jpg");
+}
+
+#dialogue{
+  background-color: white;
+  width: 50%;
+  padding: 3%;
+  margin-left: 22%;
+  margin-top: 15%;
+}
+
+#continueee{
+  text-decoration: none;
+}
+
+.jump {
+  display: none;
+  position: fixed;
+  margin-left:8%;
+  margin-top: -20%;
+}
+
+#bam{
+  text-decoration: underline;
+  color: blue;
+}
+
+/* FOURTH */
+
+#start{
+  font-family: "NbpInformaFivethree";
+  font-size: 200%;
+  position: fixed;
+  padding: 16%;
+  margin-left: 27.5%;
+}
+
+#redbutton{
+  width: 5%;
+  position: fixed;
+  margin-left: 46%;
+  margin-top: 20%;
+}
+
+#start1{
+  font-family: "NbpInformaFivethree";
+  font-size: 200%;
+  position: fixed;
+  padding: 16%;
+  margin-left: 23.5%;
+}
+
+#start2{
+  font-family: "NbpInformaFivethree";
+  font-size: 200%;
+  position: fixed;
+  padding: 16%;
+  margin-left: 26.5%;
+}
+#start3{
+  font-family: "NbpInformaFivethree";
+  font-size: 200%;
+  position: fixed;
+  padding: 16%;
+  margin-left: 20.5%;
+}
+
+#start4{
+  font-family: "NbpInformaFivethree";
+  font-size: 200%;
+  position: fixed;
+  padding: 16%;
+  margin-left: 24.5%;
+  color: red;
+}
+
+#start4{
+  font-family: "NbpInformaFivethree";
+  font-size: 200%;
+  position: fixed;
+  padding: 16%;
+  margin-left: 27.5%;
+  color: red;
+}
+
+
+#redbutton1{
+  width: 5%;
+  position: fixed;
+  margin-left: 30%;
+  margin-top: 20%;
+}
+
+#redbutton2{
+  width: 5%;
+  position: fixed;
+  margin-left: 60%;
+  margin-top: 20%;
+}
+
+.clickable{
+ cursor: pointer;
+}
+
+#redbutton3{
+  width: 5%;
+  position: fixed;
+  margin-left: 23%;
+  margin-top: 40%;
+}
+
+#redbutton4{
+  width: 5%;
+  position: fixed;
+}
+
+#redbutton5{
+  width: 5%;
+  position: fixed;
+  margin-top: 10%;
+  margin-left: 70%;
+}
+
+#redbutton6{
+  width: 5%;
+  position: fixed;
+  margin-top: 10%;
+  margin-left: 80%;
+}
+
+#twist{
+  background: black;
+}
+
+/* Present */
+
+#gifting{
+  font-family: "GT-Cinetype-Bold-Trial";
+  font-size: 200%;
+  position: fixed;
+  padding: 16%;
+  margin-left: 25.5%;
+  color: white;
+}
+
+#gift{
+  width: 5%;
+  position: fixed;
+  margin-left: 48%;
+  margin-top: 20%;
+}
+
+#welcome{
+  background: black;
+}
+
+#gifting1{
+  font-family: "GT-Cinetype-Bold-Trial";
+  font-size: 200%;
+  position: fixed;
+  padding: 16%;
+  margin-left: 28.5%;
+  color: white;
+}
+
+/* Bluescreen */
+
+#bluescreen{
+  background: #000681;
+}
+
+#bluebox{
+  margin: 5%;
+}
+
+#errortext{
+  font-family: Palatino Linotype;
+  font-size: 140%;
+  color: white;
+  line-height: 150%;
+}
+
+#errortext2{
+  font-family: Palatino Linotype;
+  font-size: 120%;
+  color: white;
+  line-height: 150%;
+}
+
+/* spinthewheel */
+#wheelbox{
+ margin-left: 35%;
+ margin-top: 7%;
+}
+
+#wheel{
+  height: 45%;
+  width: 45%;
+}
+
+#prize{
+  color: black;
+  font-family: Bebas Neue;
+  font-size: 320%;
+  margin-top: 7%;
+  margin-left: 1.5%;
+}
+
+#viruscontainer{
+  margin-left: 37%;
+  margin-top: 5%;
+  margin-right: 37%;
+}
+
+#viruswarning{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 235%;
+  color: black;
+  line-height: 150%;
+}
+
+#virustext{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 100%;
+  color: red;
+  line-height: 150%;
+}
+
+#robot{
+  position: absolute;
+  margin-left: 58%;
+  margin-top: 15%;
+  width: 10%;
+  height: 20%;
+  opacity: 45%;
+}
+
+#virustext2{
+  font-family: Arial;
+  font-size: 100%;
+  font-weight: bold;
+  margin-right: 23%;
+  color: black;
+  line-height: 150%;
+}
+
+#virustext3{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 145%;
+  color: red;
+  line-height: 140%;
+  margin-left: 3%;
+}
+
+/*randomimage*/
+
+#randomness{
+  font-family: "GT-Cinetype-Bold-Trial";
+  font-size: 200%;
+  position: fixed;
+  padding: 16%;
+  margin-left: 21%;
+  color: black;
+}
+
+#clicker{
+  width: 50%;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 8%;
+}
+
+/*funbrary*/
+
+#lefttopbox{
+  background-color: white;
+  width: 60%;
+  border: 2px solid black;
+  padding: 50px;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: .4%;
+}
+
+#leftsidebox{
+  background-color: white;
+  width: 3%;
+  border: 2px solid black;
+  padding: 50px;
+  height: 60%;
+  margin-left: 3%;
+  position: absolute;
+}
+
+#leftsiderightbox{
+  background-color: white;
+  width: 3%;
+  border: 2px solid black;
+  padding: 50px;
+  height: 60%;
+  margin-left: 60%;
+  position: absolute;
+}
+
+#container{
+  margin-left: 14%;
+  margin-top: 1%;
+  margin-right: 43%;
+  position:absolute;
+}
+
+#shrinker{
+  width: 200px;
+  box-shadow: 1px 1px 1px 1px;
+  color: grey;
+  height: 120px;
+}
+
+#textfile{
+  font-family: "GT-Cinetype-Light-Trial";
+  margin-top: 10px;
+  margin-left: 38px;
+  position: absolute;
+  color: black;
+}
+
+#textdecoration{
+  text-decoration:none;
+  color: black;
+}
+
+#textfile2{
+  font-family: "GT-Cinetype-Light-Trial";
+  margin-top: 10px;
+  margin-left: 60px;
+  position: absolute;
+  color: black;
+}
+
+#rightcontainer{
+  margin-left: 1360px;
+  position: absolute;
+  margin-top: -80px;
+  margin-right: 50px;
+}
+
+#note{
+  font-size: 40px;
+  font-family: "GT-Cinetype-Bold-Trial";
+}
+
+#textfiles{
+  font-size: 30px;
+  font-family: "GT-Cinetype-Light-Trial";
+  line-height: 125%;
+}

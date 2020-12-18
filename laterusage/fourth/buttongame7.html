@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Let's Play!</title>
+    <link href="../css/normalize.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.typekit.net/llj1yzv.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  <body id="twist">
+    <audio id="myAudio">
+      <source src="../sound/terror.mp3" type="audio/mpeg">
+    </audio>
+      <div id="start4">
+        LeTs P14Y!
+      </div>
+    <div>
+      <a href="buttongame6.html">
+        <img src="../images/button2.png" id="redbutton6">
+      </a>
+    </div>
+    <div>
+      <a class="clickable" onclick="playAudio()" type="button">
+        <img src="../images/button2.png" id="redbutton1">
+      </a>
+    </div>
+    <div>
+      <a class="clickable" onclick="playAudio()" type="button">
+        <img src="../images/button2.png" id="redbutton3">
+      </a>
+    </div>
+    <div>
+      <a class="clickable" onclick="playAudio()" type="button">
+        <img src="../images/button2.png" id="redbutton2">
+      </a>
+    </div>
+    <div>
+      <a class="clickable" onclick="playAudio()" type="button">
+        <img src="../images/button2.png" id="redbutton5">
+      </a>
+    </div>
+    <div>
+      <a class="clickable" onclick="playAudio()" type="button">
+        <img src="../images/button2.png" id="redbutton4">
+      </a>
+    </div>
+    <div>
+      <a class="clickable" onclick="playAudio()" type="button">
+        <img src="../images/button2.png" id="redbutton">
+      </a>
+    </div>
+  </body>
+  <script>
+  var x = document.getElementById("myAudio");
+
+  function playAudio() {
+    x.play();
+  }
+
+  function pauseAudio() {
+    x.pause();
+  }
+  </script>
+</html>
